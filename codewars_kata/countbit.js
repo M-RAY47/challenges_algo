@@ -4,4 +4,5 @@ Write a function that takes an integer as input, and returns the number of bits 
 	Example: The binary representation of 1234 is 10011010010, so the function should return 5 in this case*/
 
 function bitCount (n){
-	return n.toString(2).match(/1/g) != null ? n.toString(2).length : 0;
+	let bit =  n.toString(2).match(/1/g) != null ? n.toString(2).length : 0;
+	return bit;
